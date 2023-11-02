@@ -1,0 +1,23 @@
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    background: none;
+    border: none;
+    border-bottom: solid 1px var(--gray-30);
+    display: flex;
+    flex: 1;
+    padding: 18px 0 8px 0;
+    color: var(--gray-70, #79797D);
+    /* 20 Medium */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 27px */
+    letter-spacing: -0.2px;
+}
+.error-box {
+    height: 13px;
+}
